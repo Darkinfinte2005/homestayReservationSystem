@@ -1,0 +1,73 @@
+/*CSS from pradip */
+#bg-video{
+  position:fixed;
+  x-index:-1;
+}
+@media (min-aspect-ratio:16/9){
+  #bg-video{
+    width:100%;
+    height:auto;
+  }
+}
+@media (max-aspect-ratio:16/9){
+  #bg-video{
+    width:auto;
+    height:100%;
+  }
+}
+.navbar .navbar-nav .nav-item a{
+  color:#fff;
+  margin-right:50px;
+  margin-left:55px;
+}
+.navbar .navbar-nav .nav-item a:hover{
+  background-color: rgba(4,34,142,0.6);
+  border-radius:15px;
+}
+.navbar .navbar-brand{
+  margin:0 auto;
+  padding-left: 20px;
+}
+.card-img-top{
+  max-width:100%;
+  height:auto;
+}
+.lightbox{
+	height:auto;
+	width:auto;
+}
+.lightbox img{
+	display:block;
+	max-width:100%;
+		height:auto;
+	
+}
+/*CSS from Pradip */
+		img.art {
+			width: 100%;
+			height: 300px;
+			transition: transform 1s;
+			padding: 2px 2px 0px 2px;
+		}
+
+		.thumb {
+			overflow: hidden;
+		}
+
+		img.art:hover {
+			transform: scale(1.2);
+		}
+
+		.fig-caption {
+			text-align: center;
+			background-color: black;
+			color: white;
+			text-decoration: none;
+			margin: 0px 2px 2px;
+		}
+
+/* CSS from Pradip Gurung*/
+
+.banner {
+	text-align: center;
+}
